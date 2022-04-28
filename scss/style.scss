@@ -1,0 +1,22 @@
+$color1: black;
+$color2: red;
+$defaultWidth: 500px;
+$defaultHeight: 100px;
+
+p {
+  text-align: center;
+}
+.block {
+  margin: auto;
+  background-color: $color1;
+  width: $defaultWidth;
+  height: $defaultHeight;
+  color: $color2;
+}
+#otherBlock {
+  margin: auto;
+  background-color: $color2;
+  width: $defaultWidth;
+  height: $defaultHeight;
+  color: $color1;
+}

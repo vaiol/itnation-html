@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JS</title>
+  <style>
+    .list-item {
+        background-color: #acb3b9;
+        width: 500px;
+        height: 20px;
+        color: #333333;
+        text-align: center;
+        margin: 5px auto;
+    }
+  </style>
+</head>
+<body>
+<div id="container"></div>
+<script>
+    const rootElement = document.getElementById("container");
+    for (let i = 0; i < 10; i++) {
+        const div = document.createElement('div')
+        div.classList.add('list-item')
+        div.innerText = `List Item ${i + 1}`
+        rootElement.appendChild(div)
+    }
+</script>
+</body>
+</html>

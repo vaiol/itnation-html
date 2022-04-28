@@ -1,0 +1,15 @@
+p {
+    text-align: center;
+}
+.block {
+    background-color: black;
+    width: 500px;
+    height: 100px;
+    color: chocolate;
+}
+#otherBlock {
+    background-color: chocolate;
+    width: 500px;
+    height: 100px;
+    color: black;
+}
